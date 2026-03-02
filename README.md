@@ -144,7 +144,7 @@ local-rag-llm-assistant/
 main.py
 requirements.txt
 .python-version
-vectorstore/   (generated at runtime, do not commit)
+vectorstore/   (generated at runtime, non commit)
 README.md
 .gitignore
 ```

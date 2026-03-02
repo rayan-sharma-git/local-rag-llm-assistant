@@ -1,7 +1,13 @@
 # main code for rag
 
 # step-1 imports
-
+from langchain_community.document_loaders import WebBaseLoader
+from langchain_community.vectorstores import FAISS
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_ollama import OllamaLLM
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
 
 # step-2 load website
 
